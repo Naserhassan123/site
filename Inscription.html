@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>inscrire</title>
+	<link rel="stylesheet" type="text/css" href="InscriptionT.css">
+	<link rel="stylesheet"  href="ACCEUIL_N.css">
+	
+
+
+</head>
+
+<body>
+	
+	<nav class="navbar" >
+		<img src="serp0.jpeg" alt="" width="4%"  >
+		<ul>
+			<li> <a href="Accueil_N.html"> HOME </a> </li>
+			<li> <a href="connexionphp_incription.php"> CONNEXION </a> </li>
+			<li> <a href="connexion_Admin.php">ADMINISTRATEUR</a> </li>
+			<li> <a href="#"> CONTACT </a> </li>
+		</ul>
+		
+	</nav>
+	<center>
+		<form method="POST" action="Inscription.php">
+			<fieldset style="width: 25%">
+
+				<h1>Inscription </h1>
+				<hr>
+
+				<table>
+					<ul>
+						
+						<!-- <tr>
+							<td>Votre ID: </td>
+							<td><input type="number" name="num_client" value=""></td>
+						</tr> -->
+						<tr>
+							<td>Nom: </td>
+							<td><input type="text" name="Nom_client" value="" required></td>
+						</tr>
+						<tr>
+							<td> Prenom: </td>
+							<td><input type="text" name="Prenom_client" value="" required></td>
+						</tr>
+						<tr>
+							<td>Telephone: </td>
+							<td><input type="number" name="tel_client" value="" required></td>
+						</tr>
+
+						<tr>
+							<td>Adresse: </td>
+							<td><input type="text" name="Adresse_client" value="" required></td>
+						</tr>
+
+
+						<tr>
+							<td>Adresse couriel: </td>
+							<td><input type="text" name="Email_client" value="" required></td>
+						</tr>
+
+						<tr><br><br>
+							<td>Mot de passe: </td>
+							<td><input type="password" name="Mot_passe" value="" required></td>
+						</tr>
+
+						<tr>
+							<td colspan="2"><input type="submit" class="input-submit" value="inscrire"></td>
+						</tr>
+
+				</table>
+				</ul>
+
+
+
+		</form>
+	</center>
+
+	</fieldset>
+	</hr>
+
+</body>
+
+</html>
